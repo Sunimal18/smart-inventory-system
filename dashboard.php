@@ -98,9 +98,12 @@ $lowStock = $conn->query("SELECT COUNT(*) as total FROM products WHERE quantity 
   <!-- Action Buttons -->
   <div class="row mt-5">
     <div class="col text-center">
-      <a href="admin/manage-products.php" class="btn btn-outline-primary btn-lg me-3">
-        <i class="bi bi-plus-circle"></i> Add Product
+      <a href="admin/manage_product.php" class="btn btn-outline-primary btn-lg me-3">
+        <i class="bi bi-plus-circle"></i> Manage Product
       </a>
+      <!-- <a href="admin/add_product.php" class="btn btn-outline-primary btn-lg me-3">
+        <i class="bi bi-plus-circle"></i> Add Product
+      </a> -->
       <a href="sales/new-sale.php" class="btn btn-outline-success btn-lg me-3">
         <i class="bi bi-cash-coin"></i> New Sale
       </a>
