@@ -104,7 +104,7 @@ $lowStock = $conn->query("SELECT COUNT(*) as total FROM products WHERE quantity 
       <!-- <a href="admin/add_product.php" class="btn btn-outline-primary btn-lg me-3">
         <i class="bi bi-plus-circle"></i> Add Product
       </a> -->
-      <a href="sales/new-sale.php" class="btn btn-outline-success btn-lg me-3">
+      <a href="sales/new_sales.php" class="btn btn-outline-success btn-lg me-3">
         <i class="bi bi-cash-coin"></i> New Sale
       </a>
       <a href="sales/sales-history.php" class="btn btn-outline-dark btn-lg">
