@@ -59,6 +59,8 @@ $sales = $stmt->get_result();
     </div>
   </form>
 
+  <a href="sales-report.php" class="btn btn-success w-100">Sales Report</a>
+  <br><br>
   <!-- Sales Table -->
   <div class="table-responsive">
     <table class="table table-bordered table-hover bg-white">
